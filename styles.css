@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Silkscreen', sans-serif;
+}
+
+body{
+  background-color: sandybrown;
+}
+
+h1{
+  margin-left: 40vw;
+margin-top: 7vh;
+font-size: 4rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+
+}
+
+.set{
+  display: block;
+}
+
+.drum{
+  display: inline-block;
+  height: 7rem;
+  width: 7rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  font-size: 4rem;
+  text-align: center;
+  border: 8px solid gray;
+  border-radius: 1rem;
+  background-color: tomato;
+}
+
+footer{
+  background-color:#e8dfb0;
+color: white;
+text-align: center;
+height: 3rem;
+padding: 1rem;
+}
+
+.w{
+  background-image: url(images/tom1.png);
+}
+.a{
+  background-image: url(images/tom2.png);
+}
+.s{
+  background-image: url(images/tom3.png);
+}
+.d{
+  background-image: url(images/tom4.png);
+}
+.j{
+  background-image: url(images/kick.png);
+}
+.k{
+  background-image: url(images/snare.png);
+}
+.l{
+  background-image: url(images/crash.png);
+}
+
+.pressed{
+  color: white;
+  opacity: 0.7;
+}
